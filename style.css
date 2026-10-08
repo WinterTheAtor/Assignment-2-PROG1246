@@ -3,17 +3,18 @@ main {
     float: none;
 }
 
-.header {
-    color: rgb(48, 48, 48);
-    background-color: rgb(91, 91, 91);
-    border: 2px solid rgb(45, 45, 45);
+.header h2 {
+    color: #373737;
+    background-color: rgb(30,30,30);
+    border: 2px solid rgb(65,65,65);
     border-radius: 8px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    max-width: 20rem;
 }
 
-.gallary-container{
+.gallary-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -21,7 +22,7 @@ main {
     margin-bottom: 30px;
 }
 
-.card{
+.card {
     background-color: rgb(30, 30, 30);
     border: 2px solid rgb(73, 73, 73);
     border-radius: 8px;
@@ -64,9 +65,9 @@ main {
 }
 
 footer {
-    color: rgb(48, 48, 48);
-    background-color: rgb(91, 91, 91);
-    border: 2px solid rgb(45, 45, 45);
+    color: #373737;
+    background-color: rgb(30,30,30);
+    border: 2px solid rgb(65,65,65);
     border-radius: 8px;
     text-align: center;
     justify-content: center;
