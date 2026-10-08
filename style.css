@@ -1,0 +1,74 @@
+main {
+    width: 100%;
+    float: none;
+}
+
+.header {
+    color: rgb(48, 48, 48);
+    background-color: rgb(91, 91, 91);
+    border: 2px solid rgb(45, 45, 45);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallary-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: rgb(30, 30, 30);
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card h2 {
+    color: #373737;
+    font-size: 1.25rem;
+    margin: 12px 0 6px 0;
+}
+
+.card p {
+    color: #7d7d7d;
+    font-size: 0.95rem;
+    margin: 0 0 12px 0;
+}
+
+.btn-buy {
+    display: block;
+    background-color: #1c1c1c;
+    border: 2px solid rgb(49, 49, 49);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-buy:hover {
+    background-color: #5a5a5a;
+}
+
+footer {
+    color: rgb(48, 48, 48);
+    background-color: rgb(91, 91, 91);
+    border: 2px solid rgb(45, 45, 45);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
